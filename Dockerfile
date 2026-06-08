@@ -1,4 +1,4 @@
-FROM jenkins/inbound-agent:jdk17
+FROM jenkins/inbound-agent:jdk21
 
 USER root
 RUN apt-get update && apt-get install -y git
